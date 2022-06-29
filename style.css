@@ -1,0 +1,34 @@
+@import url('https://fonts.google.com/specimen/Bai+Jamjuree');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+:root {
+### Primary
+--Strong Cyan: hsl(171, 66%, 44%);
+--Light Blue: hsl(233, 100%, 69%);
+
+### Neutral
+--Dark Grayish Blue: hsl(210, 10%, 33%);
+--Grayish Blue: hsl(201, 11%, 66%);
+
+}
+
+
+body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 16px;
+  background-color: white;
+  background-image: url(./images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
